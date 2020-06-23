@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  background-color: #e0e3e7;
+}
+
+/* .top {
+  /* background-color: aliceblue; */
+.top img {
+  display: flex;
+  margin: auto;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: red;
+}
+
+.navbar li {
+  float: right;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a img {
+  width: 70px;
+  height: 30px;
+}
+
+#adidas {
+  width: 40px;
+  height: 20px;
+  position: relative;
+  top: 5px;
+}
+
+.secnavbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  height: 65px;
+}
+
+.secnavbar li {
+  float: left;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.secnavbar li a {
+  display: flex;
+  color: red;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+}
+
+.navigable_text {
+  position: relative;
+  top: 10px;
+  font-size: 15px;
+}
+
+.navigable_text:hover {
+  color: white;
+}
+#logo {
+  width: 65px;
+  height: 50px;
+  position: relative;
+  bottom: 5px;
+}
+.body {
+  /* background: url("spursstad.jpg") no-repeat center center fixed; */
+  width: 1347px;
+  height: 500px;
+  border: 1px solid black;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vid {
+  width: 100%;
+  /* max-width: auto; */
+}
+.bottom-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(26, 24, 24);
+}
+
+.bottom-navbar li {
+  float: left;
+}
+
+.bottom-navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+}
+
+.bottom-navbar li a:hover {
+  text-decoration: underline;
+}
+.copyrights {
+  padding: 14px 16px;
+  color: gray;
+  display: block;
+  text-align: center;
+}
+.top-bottom-section {
+  border: 1px solid red;
+  display: block;
+  height: 150px;
+  background-color: rgb(43, 39, 39);
+}
+
+.bottom-news {
+  background: url(martbrun.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 700px;
+  z-index: 1;
+  box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+}
+
+.inner-container {
+  display: block;
+  /* border: 4px solid red; */
+  height: 680px;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: red;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-top: 500px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+.button:hover {
+  background-image: linear-gradient(red, black);
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.inner-container h1 a {
+  /* margin-top: 400px; */
+  /* border: 1px solid pink; */
+  position: relative;
+  top: 10%;
+  font-size: 3rem;
+  z-index: 3;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px burlywood, 0 0 5px darkblue;
+  transition: text-decoration 4s;
+  margin-left: 20px;
+  /* float: right; */
+  /* text-decoration: ; */
+}
+
+.inner-container h1 a:hover {
+  text-decoration: underline red;
+  text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px darkblue;
+}
+.inner-container h4 {
+  color: red;
+  font-size: 2rem;
+  margin-left: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
+}
+
+.fixtures {
+  /* border: 2px solid red; */
+  height: 500px;
+}
+
+.fixtures > div {
+  width: 350px;
+  height: 400px;
+  background-color: white;
+  border: 1px solid pink;
+  margin-top: 30px;
+}
+
+.fixtures {
+  display: flex;
+  justify-content: space-evenly;
+}
+.pllogo {
+  height: 100px;
+  display: block;
+  margin: auto;
+}
+.fixtures p {
+  text-align: center;
+  line-height: 30px;
+}
+
+.main-fixture {
+  /* border: 2px solid red; */
+  height: 150px;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 30px;
+}
+
+.main-fixture > div {
+  width: 90px;
+  height: 100px;
+  background-color: white;
+  /* border: 1px solid pink; */
+  margin-top: 30px;
+}
+.main-fixtures {
+  /* border: 2px solid red; */
+  height: 150px;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 30px;
+}
+
+.main-fixtures > div {
+  width: 90px;
+  height: 100px;
+  background-color: white;
+  /* border: 1px solid pink; */
+  margin-top: 30px;
+}
+
+.clubs-logo {
+  height: 90px;
+}
+.clubs-logos {
+  height: 20px;
+}
+.scorecard {
+  text-align: center;
+}
+.scorecard > div {
+  border: 1px solid black;
+  background-color: rgb(32, 31, 31);
+  border-radius: 5px;
+  height: 80px;
+  margin: auto;
+
+  font-size: 35px;
+  position: relative;
+}
+.scorecard > div p {
+  position: relative;
+  top: 30%;
+  color: white;
+}
+.left {
+  transition: box-shadow 3s;
+}
+
+.left:hover {
+  box-shadow: 20px 20px 50px 15px red;
+}
+
+.oldtrafford {
+  border: 1px solid red;
+  height: 700px;
+  margin-top: 10px;
+  background: url(oldentrance.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
